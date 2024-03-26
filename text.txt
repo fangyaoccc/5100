@@ -1,0 +1,29 @@
+1) Can a class be derived (inherit) from two different independent classes?
+
+No
+
+2) Can a class be derived (inherit) from a “final” class?
+
+No
+
+3) What is polymorphism, how it works, and why is it needed?
+
+Polymorphism is a fundamental concept in object-oriented programming that allows objects of different classes to be treated as objects of a common super class.
+It's essentially the ability of a single interface to represent different underlying forms (data types). 
+
+4) What is an inner (nested) class?
+
+An inner class, or nested class, is a class defined within another class. Java supports four types of nested classes: Static Nested Classes,Inner Classes (Non-static Nested Classes),Local Classes,
+Anonymous Classes
+
+5) What is an abstract class and why is it needed?
+
+An abstract class in Java is a class that cannot be instantiated and may contain abstract methods, which are methods without implementations.The reasons for using abstract classes include:
+-To define a template for a group of subclasses.
+-To share common code among several closely related classes.
+-To declare non-static or non-final fields, allowing subclasses to access common methods or fields of the abstract class.
+-To implement partial abstraction, as abstract classes can have both abstract and concrete methods.
+
+6) What is an “interface” class in Java?
+
+An interface in Java is not a class but a reference type, similar to a class, that can contain only constants, method signatures, default methods, static methods, and nested types.
